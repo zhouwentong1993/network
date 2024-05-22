@@ -6,7 +6,6 @@ import java.net.Socket;
  * 全连接队列溢出
  */
 public class Client {
-
     public static void main(String[] args) throws Exception {
         System.out.println("Started on: " + System.currentTimeMillis());
         try {
@@ -19,5 +18,4 @@ public class Client {
             System.out.println("End on: " + System.currentTimeMillis());
         }
     }
-
 }
