@@ -15,7 +15,7 @@ public class Client {
                 socket.setOption(SO_REUSEPORT, true);
                 socket.setReuseAddress(true);
                 socket.bind((new InetSocketAddress(8888)));
-                socket.connect(new InetSocketAddress("www.baidu.com", 80));
+                socket.connect(new InetSocketAddress("127.0.0.1", 8888));
 //            }
         } finally {
             System.out.println("End on: " + System.currentTimeMillis());
